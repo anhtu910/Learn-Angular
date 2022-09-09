@@ -1,0 +1,14 @@
+
+<p>
+  <mat-toolbar>
+  <span>3siD</span>
+  <span class="example-spacer"></span>
+  <button routerLink="/login" *ngIf="!hide" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+   <mat-icon>login</mat-icon>
+ </button>
+ <button (click)="logout()" routerLink="/login" *ngIf="hide" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+  <mat-icon>exit_to_app</mat-icon>
+</button>
+</mat-toolbar>
+</p>
+<router-outlet></router-outlet>

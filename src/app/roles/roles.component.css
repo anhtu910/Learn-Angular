@@ -1,0 +1,19 @@
+table {
+    margin: 10px auto;
+    width:80%;
+  }
+  .role-spinner{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+ .mat-cell.cdk-cell.cdk-column-Action.mat-column-Action button{
+  border: none;
+  background-color: aliceblue;
+ }
+ button{
+  cursor: pointer;
+ }
+ .button-create{
+  margin: 20px;
+ }

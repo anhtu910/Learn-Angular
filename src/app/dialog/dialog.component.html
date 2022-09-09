@@ -1,0 +1,13 @@
+<h1 mat-dialog-title>Create</h1>
+<div mat-dialog-content>
+  <p>New role</p>
+  <mat-form-field appearance="fill">
+    <mat-label>Write something..</mat-label>
+    <input matInput [(ngModel)]="data.animal" >
+  </mat-form-field>
+</div>
+<div mat-dialog-actions class="role-    ">
+    <button mat-button [mat-dialog-close]="data.animal"  cdkFocusInitial>Ok</button>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+ 
+</div>

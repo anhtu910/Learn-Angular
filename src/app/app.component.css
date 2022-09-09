@@ -1,0 +1,10 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+p{
+  position: fixed;
+  width: 100%;
+}
+app-root{
+  height: 100%;
+}

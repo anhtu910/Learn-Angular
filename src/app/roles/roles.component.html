@@ -1,0 +1,4 @@
+<mat-spinner class="role-spinner" *ngIf="hide"></mat-spinner>
+<div>
+  <button class="button-create" *ngIf="!hide" mat-raised-button (click)="openDialog()" color="primary">Create</button>
+<app-table [hide]="hide"  [dataSource]="dataSource" [displayedColumns]="displayedColumns"></app-table>
